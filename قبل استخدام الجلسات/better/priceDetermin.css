@@ -1,0 +1,127 @@
+
+
+.enterPrice{
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+.container input[type=text],.selectType{
+
+    width: 100%;
+    padding: 12px 20px !important;
+    margin: 8px 0 !important;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.deter{
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    width:  auto;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: bold;
+    display: inline;
+}
+
+.imgcont{
+    text-align: center;
+    margin: 24px  12px 0;
+    /* position: relative; */
+
+}
+.container{
+ padding: 16px;
+
+}
+
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 99;
+    left: 361px;
+    top: 143px;
+    width: 30%;
+    height:  auto;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(114, 54, 54, 0.4);
+    padding-top: 60px;
+     border-radius: 8px;
+}
+.modal2,.modal4{
+    display: none;
+    position: fixed;
+    z-index: 99;
+    top: 50px;
+    height:  auto;
+    width: 50%;
+    left: 200px;
+    overflow: auto;
+    background-color: rgb(7, 4, 4);
+    background-color: rgba(114, 54, 54, 0.4);
+    border-radius: 8px;
+}
+.modal h3,.modal2 h3,.modal4 h3{
+    text-align: center;
+    color: white;
+}
+.modal label,.modal2 label,.modal4 label{
+    color: white;
+     
+}
+.modal button,.modal2 button,.modal4 button{
+    height: 30px;
+    background-color:  rgb(29, 29, 27);
+    color: white;
+    font-weight: bold;
+}
+
+.modal-content{
+    margin: 5% auto 15% auto;
+/* background-color: #42373791;
+
+border: 1px solid #888;
+width: 80%; */
+
+}
+
+.close2{
+    position: absolute;
+    right: 5px;
+    top: 0;
+    color:  white;
+    font-size: 35px;
+    font-weight: bold;
+    padding-bottom:20px;
+}
+.close2:hover, .close2:focus{
+    color: red;
+    cursor: pointer;
+
+}
+
+.animate{
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s;
+}
+
+@-webkit-keyframes animatezoom{
+    from {-webkit-transform: scale(0) }
+    to {-webkit-transform: scale(1) }
+}
+
+@keyframes animatezoom{
+    from {transform: scale(0) }
+    to {transform: scale(1) }
+
+}
+

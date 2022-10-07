@@ -1,0 +1,109 @@
+
+body{
+    padding: 20px;
+
+}
+
+.cont{
+    width: 70%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: auto;
+    padding-right: auto;
+
+}
+.cont .header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+}
+ 
+.cont .header .left h2{
+color: red;
+padding-bottom: 5px;
+
+}
+.cont .header .icon{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: gray;
+    color: white;
+}
+.cont .header .icon span{
+      position: absolute;
+      font-size: x-large;
+      font-weight: bold;
+     padding-left: 17px;
+     padding-top: 40px;
+}
+
+.hr{
+    color: red;
+    background-color: red;
+    height: 3px;
+}
+.cont .info{
+    width: 100%;
+    height: auto;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+}
+.cont .info .dist h4,.cont .info .two div{
+    padding-bottom: 5px;
+}
+.cont .info .dist h4,.info .endinfo .one h4{
+    color: red;
+}
+.cont .info .endinfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cont .info .endinfo .two{
+    padding-left:30px;
+   
+}
+.cont .info .endinfo .two div{
+   padding-top: 15px;
+     
+      
+}
+.table{
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border-collapse: collapse;
+     
+}
+ 
+.table th[scope="col"]{
+    height: 25px;
+    text-align: left;
+    
+    vertical-align: top;
+    background-color: #df0e0e;
+    color:  white;
+    font-weight: bold;
+}
+ 
+.table td,th{
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 70px;
+
+}
+.pr{
+    width: 80px;
+}
+tr,td{
+    border :0.6px solid rgb(41, 38, 38);
+}

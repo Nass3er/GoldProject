@@ -1,0 +1,159 @@
+body{
+    padding: 20px;
+
+}
+
+.btn_success{
+    width: auto;
+    height: 30px;
+    background-color: rgb(3, 221, 21);
+    color: white;
+    font-style: bold;
+    padding: 7px;
+     text-decoration-line:none;
+    border-radius: 6px;
+}
+/* .invoiceRight{
+    margin-right: ;
+} */
+.custName{
+    font-size: 18px;
+    color:#ffe70a ;
+    font-weight: bold;
+}
+.table,.one{
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border-collapse: collapse;
+     
+}
+ .table{
+   width: 100%;
+ }
+.table th[scope="col"]{
+    height: 25px;
+    text-align: right;
+    vertical-align: top;
+    background-color: #ffe70a;
+     
+}
+.img{
+    padding-right: 10px;
+    padding-left: 30px;
+}
+.thumb{
+    width: 50px;
+    height: 50px;
+}
+.table td,th{
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 70px;
+     font-weight: bold;
+}
+.table tbody td{
+    border-bottom:0.6px solid rgb(41, 38, 38);
+    font-weight: bold;
+    font-size: 17px;
+    color: white;
+     text-shadow:-8px 1px 20px  black;
+}
+.pr{
+    width: 80px;
+}
+
+.select{
+     width: auto;
+     height: 40px;
+
+}
+.select select{
+    width: 200px;
+    border-radius: 7px;
+    padding: 5px;
+}
+
+.titleInvoce{
+      display: flex;
+      justify-content: space-between;
+
+}
+ .foot tr{
+     border-top: 3px solid #ffe70a;
+ }
+ .foot td{
+     color: #ffe70a;
+     font-weight: bold;
+ }
+ .retrate{
+    width: 40px;
+    height: 25px;
+    border-radius: 3px;
+    border:2px solid white ;
+    background-color: #ffe70a;
+    font-weight: bold;
+    color: black;
+    font-weight: bold;
+    display: inline;
+ }
+ .foot .next{
+     width: 70px;
+     height: 25px;
+     border-radius: 3px;
+     border:2px solid white ;
+     background-color: #ffe70a;
+     font-weight: bold;
+     color: black;
+     font-weight: bold;
+ }
+ .next:hover{
+     background-color: #139e0e;
+     color: white;
+ }
+ .foot .next:hover{
+   background-color: antiquewhite;
+   color: black;
+ }
+.titleInvoce span{
+font-size: x-large;
+font-weight: bold;
+}
+.btn{
+    background-color: whitesmoke;
+    font-weight: bold;
+    border-radius: 5px;
+    
+}
+
+.btn_d{
+    border: 2px solid red;
+    color: red;
+}
+.btn_e{
+    border: 2px solid rgb(27, 8, 189);
+    color: rgb(27, 8, 189);
+     text-decoration-style: none;
+     text-decoration-line: none;
+}
+
+.btn_add{
+    border: 2px solid rgb(19, 231, 82);
+    color:  rgb(19, 231, 82);
+}
+
+.btn_d:hover{
+    background-color: red;
+    color: white;
+}
+.btn_e:hover{
+    background-color:rgb(27, 8, 189);
+    color: white;
+
+}
+.btn_add:hover{
+    background-color:  rgb(19, 231, 82);
+    color:   white;
+}

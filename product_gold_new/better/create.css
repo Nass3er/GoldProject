@@ -1,0 +1,91 @@
+body{
+    padding: 50PX;
+    margin-left: auto;
+    margin-right: auto;
+    direction: rtl;
+}
+.layout{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+    padding-right: auto;
+     
+     display: flex;
+     flex-direction: row;
+      
+}
+.left{
+    display: inline;
+}
+
+.right{
+    display: inline;
+    margin-left: 150px;
+    
+}
+
+.cont{
+    width: 70%;
+    height: auto;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+
+}
+
+
+.cont form{
+    width: 60%;
+    height:  auto;
+    display: flex;
+flex-direction: column;
+justify-content:space-between;
+  
+
+}
+
+form input,.caliber{
+    width: 90%;
+    height: 30px;
+    border-radius: 8px;
+   
+    padding: 5px;
+    margin: 5px;
+   
+}
+.pro{
+    font-size:  20px;
+    color: tomato;
+}
+
+form input[type="submit"]{
+    background-color: rgb(95, 15, 241);
+    width: 130px;
+    height: 30px;
+    color: white;
+    padding-left: 10px;
+    padding-right: 5px;
+    border-radius: 6px;
+     
+     
+}
+
+.alert-danger{
+
+    width: 90%;
+    height: auto;
+    background-color: rgba(236, 127, 127, 0.712);
+    color:  rgb(134, 33, 7);
+}
+
+.btn-go{
+    background-color: grey;
+    color: white;
+    width: auto;
+    height: 30px;
+    padding: 5px;
+    text-decoration-line:none;
+    border-radius: 5px;
+    left: 0;
+}

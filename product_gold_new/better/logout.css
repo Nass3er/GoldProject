@@ -1,0 +1,27 @@
+
+
+body{
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: auto;
+    padding-right: auto;
+}
+.containerLogout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+
+}
+.containerLogout .logout{
+    background-color:hsla(60, 100%, 50%, 0.842);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px ridge rgb(165, 9, 113);
+}
+.containerLogout .logout h3{
+color: rgb(156, 13, 13);
+
+}
